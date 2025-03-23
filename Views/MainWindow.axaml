@@ -1,0 +1,58 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:wwe.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        d:DesignWidth="800"
+        d:DesignHeight="450"
+        x:Class="wwe.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="wwe">
+    <Border BorderBrush="Red" BorderThickness="4" CornerRadius="8" Padding="20">
+        <StackPanel>
+            
+            <Border BorderBrush="Red" BorderThickness="2" CornerRadius="5" Padding="10">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Spacing="10">
+                    <Button Content="Load" Click="load" />
+                    <Button Content="CloseProgram" Click="Button2Click" />
+                    
+                </StackPanel>
+            </Border>
+           
+            <Border BorderBrush="Red" BorderThickness= "2" CornerRadius= "5" Padding=" 10" >
+                <StackPanel>
+                    <TextBlock Text="Enter target florders path, seperate them with @" HorizontalAlignment="Left" />
+                    <TextBox Name="Id"/>
+                </StackPanel>
+            </Border>
+
+            <Border BorderBrush="Red" BorderThickness="2" CornerRadius= "8" Padding= "10" >
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Spacing="10">
+                    <Button Content="Previous" Click="NewButtonClick" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                    <Button Content="Next" Click="AnotherButtonClick" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                </StackPanel>
+            </Border>
+           
+            <Border BorderBrush="Red" BorderThickness="1" CornerRadius="3" Padding="5">
+            
+            </Border>
+
+            <Border BorderBrush="Red" BorderThickness="1" CornerRadius="3" Padding="99">
+            <StackPanel>
+                    <WrapPanel Name="MainWrap" Width="900">
+                        <Image Height="0" Width="1000" Source="" Name="waiting" Margin="800"/>
+                    </WrapPanel>
+                </StackPanel>
+            </Border>
+
+            <Border BorderBrush="Red" BorderThickness="1" CornerRadius="3" Padding="167">
+            </Border>
+
+            <Border BorderBrush="Red" BorderThickness="1" CornerRadius="3" Padding="81">
+            </Border>
+
+        </StackPanel>
+    </Border>
+</Window>
