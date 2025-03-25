@@ -65,3 +65,4 @@ C:\Users\Admin\OneDrive\Desktop\wwe\obj\Debug\net9.0\refint\Avalonia\wwe.dll
 C:\Users\Admin\OneDrive\Desktop\wwe\obj\Debug\net9.0\wwe.csproj.Up2Date
 C:\Users\Admin\OneDrive\Desktop\wwe\obj\Debug\net9.0\wwe.genruntimeconfig.cache
 C:\Users\Admin\OneDrive\Desktop\wwe\obj\Debug\net9.0\ref\wwe.dll
+C:\Users\Admin\OneDrive\Desktop\wwe\obj\Debug\net9.0\wwe.sourcelink.json

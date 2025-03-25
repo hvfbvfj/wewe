@@ -30,28 +30,38 @@
 
             <Border BorderBrush="Red" BorderThickness="2" CornerRadius= "8" Padding= "10" >
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Spacing="10">
-                    <Button Content="Previous" Click="NewButtonClick" HorizontalAlignment="Left" VerticalAlignment="Center" />
-                    <Button Content="Next" Click="AnotherButtonClick" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                    <Button Content="Previous" Click="previous" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                    <Button Content="Next" Click="next" HorizontalAlignment="Left" VerticalAlignment="Center" />
                 </StackPanel>
             </Border>
-           
-            <Border BorderBrush="Red" BorderThickness="1" CornerRadius="3" Padding="5">
-            
-            </Border>
+                      
 
-            <Border BorderBrush="Red" BorderThickness="1" CornerRadius="3" Padding="99">
+            <Border BorderBrush="Red" BorderThickness="1" CornerRadius="3" Padding="1">
             <StackPanel>
                     <WrapPanel Name="MainWrap" Width="900">
-                        <Image Height="0" Width="1000" Source="" Name="waiting" Margin="800"/>
+                        <Image Height="0" Width="100" Source="" Name="waiting" Margin="10" />
                     </WrapPanel>
                 </StackPanel>
             </Border>
 
-            <Border BorderBrush="Red" BorderThickness="1" CornerRadius="3" Padding="167">
+            <Border BorderBrush="Red" BorderThickness="1" CornerRadius="3" Padding="117">
+                     <Image Height="350" Width="350" Source="" Name="Scaling" Margin="10" />
+
             </Border>
 
-            <Border BorderBrush="Red" BorderThickness="1" CornerRadius="3" Padding="81">
+            <Border BorderBrush="Red" BorderThickness="1" CornerRadius="3" Padding="11">
+            <StackPanel>
+        <TextBlock Name="FileName" Text="FileName:" HorizontalAlignment="Left" />
+        <TextBlock Name="CreationDate" Text="Creation Date:" HorizontalAlignment="Left" />
+        <TextBlock Name="Size" Text="Size:" HorizontalAlignment="Left" />
+        <TextBlock Name="Resolution" Text="Resolution:" HorizontalAlignment="Left" />
+        <TextBlock Name="Format" Text="Format:" HorizontalAlignment="Left" />
+    </StackPanel>
+
+           
+                 
             </Border>
+
 
         </StackPanel>
     </Border>
